@@ -1,0 +1,89 @@
+body, html {
+    font-family: Arial, sans-serif;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+caption {
+    display: table-caption;
+    text-align: start;
+    padding: 8px;
+    background-color: rgb(235, 235, 235);
+    border-radius: 5px;
+}
+
+.tabelaResultado th, .tabelaResultado td {
+    text-align: center;
+}
+
+.form {
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 8px;
+}
+
+.form th, .form td {
+    padding: 8px;
+}
+
+.tabelaResultado {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabelaResultado th {
+    background-color: rgb(147, 147, 147);
+    font-weight: bold;
+}
+
+
+
+.centered-column {
+    text-align: center;
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.grupoBusca td {
+    padding: 8px;
+}
+
+.botoesCadastro {
+    height: 35px;
+    width: 85px;
+    gap: 35px;
+}
+
+.conteinerBotoes, .botoesCadastro {
+    margin-right: 10px;
+}
+
+label {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.inputSelect {
+    height: 21px;
+}
+
+.linha-impar {
+    background-color: white;
+}
+
+.linha-par {
+    background-color: #E2E2E2;
+}
+
+.descricao {
+    resize: none;
+    width: 100%;
+    height: 90px;
+}
